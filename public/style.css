@@ -1,0 +1,179 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid #ccc;
+  padding: 10px 0;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.icons {
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.first {
+  margin-left: 42px;
+}
+
+.last {
+  margin-right: 42px;
+}
+
+.title {
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.subscribe-button {
+  border: none;
+  background: #C5178D;
+  color: white;
+  text-transform: uppercase;
+  font-size: 11px;
+  padding: 4px 8px;
+}
+
+.btn {
+  margin-right: 3em;
+}
+
+h2 {
+  margin: 0;
+}
+
+.list-items {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding-right: 40px;
+}
+
+.list-item {
+  color: #C5178D;
+}
+
+.content {
+  margin-top: 4em;
+}
+
+.content h3 {
+  text-align: center;
+  margin-left: -7em;
+  color: #C5178D;
+}
+
+.content h2 {
+  text-transform: capitalize;
+  font-family: Playfair Display;
+  color: #161616;
+  font-size: 36px;
+  text-align: center;
+}
+
+.content hr {
+  border: 2px solid #C5178D;
+  width: 50px;
+}
+
+.content p {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.info {
+  display: flex;
+}
+
+.info img {
+  width: 900px; 
+}
+
+.info .first {
+  flex: 50%;
+}
+
+.info .second {
+  flex: 50%;
+}
+
+.left-yellow {
+  width: 6px;
+  height: 38px;
+  background-color: #C5178D;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.classification .left {
+  display: flex;
+  align-items: center;
+}
+
+.left h4 {
+  margin: 0;
+  font-size: 26px;
+}
+
+.classification {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 25px;
+}
+
+.cast {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.cast img {
+  width: 120px;
+  border-radius: 60px;
+}
+
+.cast-list {
+  margin: 40px 10px;
+}
+
+.cast-list h5 {
+  margin-bottom: 12px;
+}
+
+.cast-list h6 {
+  color: rgb(107, 104, 104);
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 12px;
+  background: #C5178D;
+  color: white;
+  padding: 20px;
+  margin: 0;
+  margin-top: 2em;
+}
+
+.content .intro {
+  background: #edebeb;
+  padding: 20px;
+}
